@@ -49,4 +49,4 @@ FROM
 WHERE
     k0 = 'A'
 ORDER BY 
-    c14,
+    c14;
