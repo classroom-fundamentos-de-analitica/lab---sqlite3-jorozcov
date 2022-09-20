@@ -46,4 +46,4 @@ SELECT
 FROM
     tbl2
 GROUP BY
-    c23.YEAR;
+    YEAR(c23);

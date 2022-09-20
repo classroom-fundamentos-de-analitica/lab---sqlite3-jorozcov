@@ -45,4 +45,4 @@ SELECT *
 FROM 
     tbl0
 WHERE
-    c02 IN (100,600);
+    `c02` IN (100,600);
