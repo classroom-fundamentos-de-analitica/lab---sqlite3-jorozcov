@@ -41,3 +41,9 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+SELECT 
+    AVG(c21)
+FROM
+    tbl2
+GROUP BY
+    c23.YEAR;
