@@ -40,7 +40,7 @@
 -- 
 SELECT
     strftime('%Y',c14) as "YEAR",
-    COUNT(*) AS CANT
+    COUNT(*)
 FROM
     tbl1
 WHERE

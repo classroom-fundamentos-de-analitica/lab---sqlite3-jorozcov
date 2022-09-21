@@ -42,9 +42,9 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --
 SELECT 
-    EXTRACT(YEAR FROM c23) AS YEAR,
+    strftime('%Y',c23) as "YEAR",
     AVG(c21)
 FROM
     tbl2
 GROUP BY
-    EXTRACT(YEAR FROM c23);
+    strftime('%Y',c23);
