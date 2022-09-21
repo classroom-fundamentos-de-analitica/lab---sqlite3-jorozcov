@@ -41,7 +41,7 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 SELECT 
-    K0
+    K0,
     c16
 FROM
     tbl1

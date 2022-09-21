@@ -45,11 +45,11 @@
 --  
 
 SELECT
-    t1.K0
-    t2.avg(c21)
+    K0,
+    avg(c21)
 FROM
     tbl1 t1 JOIN tbl2 t2 ON tbl1.K1 = tbl2.K1
-WHERE
-    t2.c13 > 400
 GROUP BY
-    K0;
+    K0
+HAVING 
+    c13 > 400;

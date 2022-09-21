@@ -39,7 +39,7 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 SELECT
-    YEAR(c14)
+    YEAR(c14) AS YEAR,
     COUNT(*)
 FROM
     tbl1
