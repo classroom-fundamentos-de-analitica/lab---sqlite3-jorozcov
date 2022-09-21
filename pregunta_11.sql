@@ -39,9 +39,9 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 SELECT
-    EXTRACT(YEAR FROM c23) AS YEAR,
-    COUNT(*)
+    strftime('%Y',c14) as "YEAR",
+    COUNT(*) AS CANT
 FROM
     tbl1
 WHERE
-    EXTRACT(YEAR FROM c23) = '2018';
+    strftime('%Y',c14) = '2018';
