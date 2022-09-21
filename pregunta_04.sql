@@ -41,9 +41,9 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 SELECT 
-    left(k0,1) k0,
+    k0,
     c16
 FROM
     tbl1
-GROUP BY
-    k0;
+WHERE
+	substr(c16,1,1) = k0;
