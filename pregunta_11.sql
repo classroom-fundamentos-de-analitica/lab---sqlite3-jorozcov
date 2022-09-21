@@ -39,9 +39,9 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 SELECT
-    YEAR(c14) AS YEAR,
+    EXTRACT(YEAR FROM c23) AS YEAR,
     COUNT(*)
 FROM
     tbl1
 WHERE
-    YEAR(c14) = '2018';
+    EXTRACT(YEAR FROM c23) = '2018';
