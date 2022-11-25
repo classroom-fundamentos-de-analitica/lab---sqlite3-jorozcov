@@ -43,3 +43,10 @@
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+SELECT
+    K0,
+    avg(c12)
+FROM
+    (SELECT * FROM tbl1 WHERE c13 > 400)
+GROUP BY
+    K0;

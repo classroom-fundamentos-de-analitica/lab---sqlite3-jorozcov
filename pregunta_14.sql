@@ -44,3 +44,10 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
 
+SELECT
+    K0,
+    avg(c21)
+FROM
+    (SELECT * FROM tbl1 WHERE c13 > 400) NATURAL JOIN tbl2 
+GROUP BY
+    K0;
